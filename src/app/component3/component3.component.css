@@ -1,0 +1,84 @@
+h3,h4{
+    text-align: center;
+    color: black;
+}
+h2,p{
+  text-align: left;
+  color: black;
+}
+.trend{
+  background-color:rgb(6, 6, 36); 
+  text-align: center;
+  font-style: oblique;
+  color: black;
+}
+.com{
+  color: black;
+}
+.img:hover {
+  transform: scale(1.5);
+}
+.left{
+  text-align:left;
+  color: black;
+}
+.right{
+  text-align:right;
+  color: black;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+  }
+
+  .row {margin: 0 -5px;}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    
+  }
+  .blue{
+    background-color: rgb(4, 4, 56);
+    border-radius: 10%;
+       size: 0.5em;
+        text-align: left;
+      
+        font-size: 1.2em;
+  }
+  .gold{
+    background-color: #DAA520;;
+    border-radius: 10%;
+        size: 0.5em;
+        text-align: center;
+        color: black;
+        width: 100%;
+        font-size: 1.1em;
+  }
+  li{
+    color: blanchedalmond;
+  }
+  ul#menu li {
+    display:inline;   
+  }
+  a:hover {
+    background: #210244;
+}
+
+
+  
